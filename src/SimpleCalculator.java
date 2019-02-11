@@ -19,10 +19,11 @@ public class SimpleCalculator {
 		count++;
 		return num1 * num2;
 	}
-	public int getNumRolls()
+	public int getCount()
 	{
 		return count;
 	}
+	// if method does not return anything, use public "void" methodName()
 	public void reset()
 	{
 		count = 0;
